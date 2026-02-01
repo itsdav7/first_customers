@@ -19,3 +19,9 @@ print("=======================================")
 print("DataFrame sorted by age")
 df_sorted = df.sort_values(by = 'Age',ascending=True)
 print(df_sorted)
+
+# Sort data by city
+
+print("=======================================")
+df_s = df.sort_values(by = 'City', ascending = True)
+print(df_s)
