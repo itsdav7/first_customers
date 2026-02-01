@@ -13,3 +13,9 @@ df = pd.DataFrame({
     'Job':job,
     'City':city})
 print(df)
+print("=======================================")
+
+# Sort customers by age
+print("DataFrame sorted by age")
+df_sorted = df.sort_values(by = 'Age',ascending=True)
+print(df_sorted)
